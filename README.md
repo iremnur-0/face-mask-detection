@@ -1,10 +1,4 @@
-Tabii! Ekran görüntüsüne ve dosya yapısına bakarak bu proje için örnek bir `README.md` dosyası oluşturdum. Dosya, projenin amacı, nasıl çalıştığı, dosya açıklamaları ve sonuç görselleştirmesi gibi başlıkları içeriyor:
 
----
-
-### 📄 `README.md`
-
-```markdown
 # Face Mask Detection
 
 Bu proje, yüzlerde maske olup olmadığını tespit eden bir makine öğrenmesi uygulamasıdır. Eğitim ve doğrulama süreçleri sırasında modelin başarımını analiz etmek için çeşitli grafikler ve CSV dosyaları da dahil edilmiştir.
@@ -20,7 +14,6 @@ Model, çeşitli görseller üzerinden eğitilerek gerçek zamanlı olarak maske
 
 ## 📁 Proje Yapısı
 
-```
 
 face-mask-detection/
 │
@@ -42,7 +35,6 @@ face-mask-detection/
 ├── models/                     # Eğitilmiş modellerin bulunduğu klasör
 └── venv/                       # Sanal Python ortamı
 
-````
 
 ## 📊 Eğitim Sonuçları
 
