@@ -2,16 +2,16 @@
 
 Bu proje, yüzlerde maske olup olmadığını tespit eden bir makine öğrenmesi uygulamasıdır. Eğitim ve doğrulama süreçleri sırasında modelin başarımını analiz etmek için çeşitli grafikler ve CSV dosyaları da dahil edilmiştir.
 
-## 🔍 Proje Özeti
+## Proje Özeti
 
 Model, çeşitli görseller üzerinden eğitilerek gerçek zamanlı olarak maske takılıp takılmadığını belirlemektedir. Eğitim sürecinde hem doğruluk hem de kayıp değerleri takip edilmiştir.
 
-## 🧠 Kullanılan Algoritmalar
+## Kullanılan Algoritmalar
 
 - HOG + SVM (`hog_svm.py`)
 - CNN (eğitim ve test aşamaları `train.py` ve `test_on_images.py` içerisinde)
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 face-mask-detection/
@@ -35,7 +35,7 @@ face-mask-detection/
 └── venv/                       # Sanal Python ortamı
 ```
 
-## 📊 Eğitim Sonuçları
+## Eğitim Sonuçları
 
 ### Accuracy
 
@@ -47,7 +47,7 @@ face-mask-detection/
 
 Grafiklerde görüldüğü üzere, model eğitim sürecinde yüksek doğruluk seviyelerine ulaşmıştır. Validation accuracy zaman zaman dalgalanma gösterse de genel olarak başarılıdır.
 
-## ▶️ Kullanım
+## Kullanım
 
 ### Ortam Kurulumu
 
@@ -71,11 +71,11 @@ python train.py
 python detect_realtime.py
 ```
 
-## 📌 Notlar
+## Notlar
 
 - Eğitim verileri ve etiket dosyaları `labels.csv`, `labels_balanced.csv`, ve `labels_extra.csv` içerisinde bulunuyor.
 - `generate_incorrect_csv.py`, hatalı sınıflandırmaları analiz etmek için faydalıdır.
 
-## 📧 İletişim
+## İletişim
 
 Herhangi bir öneri ya da katkı için lütfen iletişime geçin.
